@@ -7,7 +7,7 @@ end
 def find_max_value(array)
   # Add your solution here
   array=["1","2","3","4","5"]
- max_value = ("1","2","3","4","5").to_a.method(:max)
+ max_value = ("1","2","3","4","5").to_a.max
   puts max_value
 end
 
