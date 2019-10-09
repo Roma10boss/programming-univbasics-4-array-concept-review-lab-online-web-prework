@@ -6,7 +6,7 @@ end
 
 def find_max_value(array)
   # Add your solution here
-  array=[2,3,4,5,6]
+  array=[2,3,4,5,6].to_a.max
   puts array.to_a.max
 end
 
