@@ -7,13 +7,13 @@ end
 def find_max_value(array)
   # Add your solution here
   array=[2,3,4,5,6]
- max_value = (2..6).to_a.method(:max)
+ max_value = (2,3,4,5,6).to_a.method(:max)
   puts max_value
 end
 
 def find_min_value(array)
   # Add your solution here
   array=[2,3,4,5,6]
- min_value = (2..6).to_a.method(:min)
+ min_value = (2,3,4,5,6).to_a.min
   puts min_value
 end
